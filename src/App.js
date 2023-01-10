@@ -1,16 +1,17 @@
 import React from "react";
-import Header from "./components/Header"
-import Hero from "./components/Hero"
-import UserCard from "./components/UserCard"
+import { ReactDOM } from "react";
+import Header from "./components/Header.js"
+import Hero from "./components/Hero.js"
+import UserCard from "./components/UserCard.js"
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <UserCard />
+        <Header />
+        <Hero />
+        <UserCard />
     </div>
   );
 }
 
-export default App;
+

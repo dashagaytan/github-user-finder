@@ -1,7 +1,7 @@
 import React from "react";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
-function UserCard(){
+export default function UserCard(){
 
     return(
         <div>
@@ -10,4 +10,5 @@ function UserCard(){
     )
 }
 
-export default UserCard();
+
+// https://api.github.com/search/users?q=example 
