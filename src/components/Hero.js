@@ -1,7 +1,7 @@
 import React from "react";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
-function Hero(){
+export default function Hero(){
 
     return(
         <div>
@@ -9,5 +9,3 @@ function Hero(){
         </div>
     )
 }
-
-export default Hero();
